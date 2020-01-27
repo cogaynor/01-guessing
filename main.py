@@ -9,7 +9,7 @@ def guessingGame():
 
     while(play != 'no' and play != 'n' and play != 'o'):
         count = 0
-        number = random.randint(1,10)
+        number = random.randint(1,100)
         guess = ''
         while(guess != number):
             guess = int(input("Enter a number 1-100: "))
